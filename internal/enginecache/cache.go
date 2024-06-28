@@ -254,7 +254,7 @@ func ValidateOrUpdateEngine(targetOS, cachePath, requiredEngineVersion string, m
 		case "darwin":
 			engineDownloadURL += "FlutterEmbedder.framework.zip"
 		case "linux":
-			engineDownloadURL += targetOS + "-x64-embedder"
+			engineDownloadURL += targetOS + "-x64-embedder.zip"
 		case "windows":
 			engineDownloadURL += targetOS + "-x64-embedder.zip"
 		default:
